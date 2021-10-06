@@ -1,0 +1,76 @@
+.first-page {
+  background-image: url(images/Header-llustration-desktop@2x.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-page-1 {
+    width: 920px;
+    height: 96px;
+    margin-top: 160px;
+}
+
+.fa-chevron-down {
+  margin-top: 50px;
+}
+
+h1 {
+font-family: 'Inter', sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 48px;
+line-height: 60px;
+}
+
+h1 span {
+    color: #58d68d;
+}
+
+.first-page-p {
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+.card1 {
+    height: 369px;
+    width: 100%;
+    background-color: #ebf0ee;
+    
+}
+
+.col {
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.card1-list {
+  padding: 5px 10px;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 20px;
+  color: #172B4D;
+}
+
+.card1-btn {
+  margin-top: 20px;
+  /* margin-left: 20%; */
+}
