@@ -1,155 +1,155 @@
 .first-page {
-    background-image: url(images/Header-llustration-desktop@2x.png);
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .first-page-1 {
-      width: 100%;
-      height: 96px;
-      margin-top: 160px;
-  }
-  
-  .fa-chevron-down {
-    margin-top: 50px;
-  }
-  
-  h1 {
+  background-image: url(images/Header-llustration-desktop@2x.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-page-1 {
+    width: 100%;
+    height: 96px;
+    margin-top: 160px;
+}
+
+.fa-chevron-down {
+  margin-top: 50px;
+}
+
+h1 {
+font-family: 'Inter', sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 48px;
+line-height: 60px;
+}
+
+h1 span {
+    color: #58d68d;
+}
+
+.first-page-p {
+  margin-top: 20px;
   font-family: 'Inter', sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
-  font-size: 48px;
-  line-height: 60px;
-  }
-  
-  h1 span {
-      color: #58d68d;
-  }
-  
-  .first-page-p {
-    margin-top: 20px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 32px;
-  }
-  
-  h2 {
-    margin-top: 50px;
-  }
-  .card1 {
-      height: 369px;
-      width: 100%;
-      background-color: #ebf0ee;
-      
-  }
-  
-  .col {
-    border: 1px solid #D0D9D4;
-    border-radius: 8px;
-    margin-right: 10px;
-    padding: 0;
-    margin-bottom: 24px;
-  }
-  .btn-success{
-    margin-bottom: 24px;
-  }
-  .card1-list {
-    padding: 5px 10px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+.card1 {
+    height: 369px;
+    width: 100%;
     background-color: #ebf0ee;
+    
+}
+
+.col {
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  margin-right: 10px;
+  padding: 0;
+  margin-bottom: 24px;
+}
+.btn-success{
+  margin-bottom: 24px;
+}
+.card1-list {
+  padding: 5px 10px;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 20px;
+  color: #172B4D;
+}
+
+.card1-btn {
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: #ebf0ee;
+  height: 352px;
+}
+
+.card2-list {
+    padding: 5px 10px;
+    background-color: #fff;
     border-radius: 4px;
     margin-top: 20px;
+}
+
+.card2-img {
+ padding: 10px;
+ background-color: #fff;
+ border-radius: 50%;
+ margin-top: 10px;
+}
+
+h4 {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.first-last-name {
+  margin-left: 5px;
+}
+
+.form-p {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.form-btn {
+  margin-left: 0;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #e5e5e5;
+  padding: 10px;
+}
+
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 40px;
   }
-  
-  h3 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 32px;
+
+  .first-page-1 {
+    height: 726px;
     margin-top: 20px;
-    color: #172B4D;
+    background-image: none;
   }
-  
-  .card1-btn {
-    margin-top: 20px;
-  }
-  
-  .card2 {
-    background-color: #ebf0ee;
-    height: 352px;
-  }
-  
-  .card2-list {
-      padding: 5px 10px;
-      background-color: #fff;
-      border-radius: 4px;
-      margin-top: 20px;
-  }
-  
-  .card2-img {
-   padding: 10px;
-   background-color: #fff;
-   border-radius: 50%;
-   margin-top: 10px;
-  }
-  
-  h4 {
-    margin-top: 15%;
-    margin-bottom: 20%;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 32px;
-    color: #344563;
-  }
-  
-  .row {
+
+  .recent-works {
     margin-top: 50px;
   }
-  
-  .first-last-name {
-    margin-left: 5px;
+
+  .first-page {
+   background-image: none;
   }
-  
-  .form-p {
-    font-family: 'Inter', sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-  }
-  
-  .form-btn {
-    margin-left: 0;
-  }
-  
-  footer {
-    margin-top: 50px;
-    border-top: 1px solid #e5e5e5;
-    padding: 10px;
-  }
-  
-  
-  @media (max-width: 767.98px) {
-    h1 {
-      font-size: 40px;
-    }
-  
-    .first-page-1 {
-      height: 726px;
-      margin-top: 20px;
-      background-image: none;
-    }
-  
-    .recent-works {
-      margin-top: 50px;
-    }
-  
-    .first-page {
-     background-image: none;
-    }
-  }
+}
