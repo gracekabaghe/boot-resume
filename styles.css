@@ -51,8 +51,11 @@ h2 {
   border-radius: 8px;
   margin-right: 10px;
   padding: 0;
+  margin-bottom: 24px;
 }
-
+.btn-success{
+  margin-bottom: 24px;
+}
 .card1-list {
   padding: 5px 10px;
   background-color: #ebf0ee;
