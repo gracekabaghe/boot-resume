@@ -6,7 +6,7 @@
 }
 
 .first-page-1 {
-    width: 920px;
+    width: 100%;
     height: 96px;
     margin-top: 160px;
 }
@@ -72,5 +72,81 @@ h3 {
 
 .card1-btn {
   margin-top: 20px;
-  /* margin-left: 20%; */
+}
+
+.card2 {
+  background-color: #ebf0ee;
+  height: 352px;
+}
+
+.card2-list {
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.card2-img {
+ padding: 10px;
+ background-color: #fff;
+ border-radius: 50%;
+ margin-top: 10px;
+}
+
+h4 {
+  margin-top: 15%;
+  margin-bottom: 20%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #344563;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.first-last-name {
+  margin-left: 5px;
+}
+
+.form-p {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.form-btn {
+  margin-left: 0;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #e5e5e5;
+  padding: 10px;
+}
+
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .first-page-1 {
+    height: 726px;
+    margin-top: 20px;
+    background-image: none;
+  }
+
+  .recent-works {
+    margin-top: 50px;
+  }
+
+  .first-page {
+   background-image: none;
+  }
 }
